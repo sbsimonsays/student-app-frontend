@@ -3,7 +3,7 @@ import './App.css';
 import StudentList from './components/StudentList/StudentList';
 
 // TODO: Get this value from .env
-const API_URL = 'http://localhost:8888';
+const API_URL = 'http://localhost:9000';
 
 function App() {
   const [studentData, setStudentData] = useState([]);

@@ -1,2 +1,12 @@
-
+.App {
+    display: grid;
+    justify-content: center; 
+    /* horiz */
+    align-items: center;
+    /* vert */
+    /* border: 5px dashed green; */
+    background-color: #eee;
+    /* never set a width or height for App file */
+    height: 100vh;
+}
 

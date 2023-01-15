@@ -1,0 +1,38 @@
+.StudentCard {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    /* <width of left> left column fixed width <width of right> right is remainder*/
+    /* border: 3px dashed red; */
+    gap: 10px;
+    padding: 16px;
+    border-bottom: 1px solid #eee;
+
+}
+
+.StudentCard__avatar {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.StudentCard__avatar img {
+    width: 100px;
+    border: 1px solid #ccc;
+    border-radius: 100%;
+    /* circular border around img */
+
+}
+/* vector art scales, other art doesn't */
+
+.StudentCard__info h1 {
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+.StudentCard__info ul {
+    padding-inline-start: 16px;
+}
+
+.StudentCard__info li {
+    list-style-type: none;
+}
